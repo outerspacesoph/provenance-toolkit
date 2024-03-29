@@ -16,12 +16,10 @@ const Home: NextPage = () => {
           src="https://i.imgur.com/yPJZbxv.png"
           alt=""
         />
-        <h1 className="text-6xl text-[#f6df45] font-bold">ChainBase Hub🔒</h1>
-        <h2 className="text-[#f6df45] py-8">
-          Connect your wallet to get started!
+        <h1 className="text-6xl text-blue-500 font-bold">ChainBase Hub🔒</h1>
+        <h2 className="text-blue-500 py-8">
+          Providing SaaS innovation with decentralized databases
         </h2>
-
-        
       </div>
     </div>
   );
