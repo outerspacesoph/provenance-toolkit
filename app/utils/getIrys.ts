@@ -18,7 +18,7 @@ interface WindowWithEthereum extends Window {
  */
 const getIrys = async (
 	network: string = process.env.NEXT_PUBLIC_NETWORK || "devnet",
-	token: string = process.env.NEXT_PUBLIC_TOKEN || "",
+	token: string = process.env.NEXT_PUBLIC_TOKEN || "matic",
 ): Promise<WebIrys> => {
 	await (window as WindowWithEthereum).ethereum.enable();
 	const provider = new providers.Web3Provider((window as WindowWithEthereum).ethereum);
